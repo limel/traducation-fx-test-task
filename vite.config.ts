@@ -12,6 +12,5 @@ export default defineConfig({
       hooks: '/src/hooks/',
       constants: '/src/constants/'
     }
-  },
-  base: '/traducation-fx-test-task/'
+  }
 })
