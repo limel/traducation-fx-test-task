@@ -59,7 +59,8 @@ function Story(props: StoryProps) {
               className={cn(
                 'bg-grey dark:bg-dark-grey',
                 'absolute top-full left-1/2 -translate-x-1/2 translate-y-4',
-                'rounded-lg p-2 drop-shadow-md dark:shadow-none'
+                'rounded-lg p-2 drop-shadow-md dark:shadow-none',
+                'z-10'
               )}>
               {history.map((item: StoryItem, index: number) => (
                 <li key={item.action + index} className="flex min-w-[270px] items-center justify-between p-2">
