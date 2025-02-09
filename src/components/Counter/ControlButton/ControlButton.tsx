@@ -25,7 +25,7 @@ function ControlButton(props: ControlButtonProps) {
           className={cn(
             'bg-light dark:bg-dark text-dark dark:text-light',
             'border-dark dark:border-light border-1',
-            'h-16 w-16 cursor-pointer place-items-center rounded-full lg:h-20 lg:w-20',
+            'flex h-16 w-16 cursor-pointer place-items-center items-center justify-center rounded-full lg:h-20 lg:w-20',
             'transition-all duration-300 ease-in-out active:scale-90',
             'focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500',
             isPressed && 'scale-90',

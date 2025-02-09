@@ -20,7 +20,7 @@ function Button(props: ButtonProps) {
       title={`Switch to ${themeForToggle} theme`}
       aria-pressed={isEqual(selectedTheme, themeForToggle)}
       className={cn(
-        'h-11 w-11 place-items-center rounded-full p-3',
+        'flex h-11 w-11 place-items-center items-center justify-center rounded-full p-3',
         'transition-colors duration-300 ease-in-out',
         'cursor-pointer',
         'focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500',
